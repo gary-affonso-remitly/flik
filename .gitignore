@@ -1,0 +1,9 @@
+# macOS
+/.DS_Store
+
+# intellij
+/.idea/
+*.iml
+
+# go debugging
+__debug_bin
