@@ -13,8 +13,8 @@ var cfgFile string
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "flik",
-	Short: "Command-line-tool to automate common back-end tasks",
-	Long:  `See the sub-commands`,
+	Short: "A command-line-tool that automates common back-end tasks",
+	Long:  `A command-line-tool that automates common back-end tasks.  See flik --help for a list of subcommands`,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
