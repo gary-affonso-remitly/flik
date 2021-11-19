@@ -13,3 +13,11 @@ Running
 -------
 Once the flik bin directory is in your path, run it like any other command-line command:
 `flik`
+
+
+Developer Resources
+-------------------
+Flik uses the following tech:
+
+* Cobra (CLI framework): https://github.com/spf13/cobra
+* Viper (config framework): https://github.com/spf13/viper
