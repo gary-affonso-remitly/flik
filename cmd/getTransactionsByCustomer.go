@@ -171,14 +171,4 @@ func init() {
 	rootCmd.AddCommand(getTransactionsByCustomer)
 	getTransactionsByCustomer.Flags().StringVar(&riskStatusesViaCommandFlag, "risk_statuses", "", "a comma separated list of risk statutes to include in the response")
 	getTransactionsByCustomer.Flags().StringVar(&sortOrderViaCommandFlag, "sort_order", "", "Optional.  Either OLDEST_FIRST or NEWEST_FIRST.  If not supplied, it will not be declared in the API calls and you'll get default API sort order.")
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// getTransactionsByCustomer.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// getTransactionsByCustomer.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
